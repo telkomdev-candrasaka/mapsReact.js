@@ -1,0 +1,35 @@
+.app {
+  display: flex;
+}
+
+.main {
+  flex-basis: 60%;
+  display: flex;
+  flex-direction: column;
+}
+
+.Penginapan {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+.peta {
+  flex-grow: 1;
+  height: 100vh;
+  top: 0;
+  position: sticky;
+}
+
+.cari {
+  padding: 10px;
+  margin-right: 5px;
+}
+
+.cari input {
+  height: 40px;
+  font-size: 20px;
+  padding-left: 5px;
+  color: #999;
+  width: 100%;
+}
